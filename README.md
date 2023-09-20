@@ -34,24 +34,35 @@ result = 10 / 0
 ```
 > ZeroDivisionError: division by zero
 
-## Links
+## External Links
 If you're referencing something, we need to source it 
-- [GitHub Flavoured Markdown Spec](https://github.github.com/gfm/#introduction) <sup>[1]</sup>
-- [Getting started(Github Flavoured Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) <sup>[2]</sup>
-- [Using TaskLists(GitHub Docs)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[3]</sup>
-- [Using emojis (cheat cheet)](https://github.com/ikatyang/emoji-cheat-sheet#emoji-cheat-sheet) <sup>[4]</sup>
+- [GitHub Flavoured Markdown Spec](https://github.github.com/gfm/#introduction) [<sup>[1]</sup>](#external-links)
+- [Getting started(Github Flavoured Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) [<sup>[2]</sup>](#external-links)
+- [Using TaskLists(GitHub Docs)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) [<sup>[3]</sup>](#external-links)
+- [Using emojis (cheat cheet)](https://github.com/ikatyang/emoji-cheat-sheet#emoji-cheat-sheet) [<sup>[4]</sup>](#external-links)
+- [Using Tables](https://github.github.com/gfm/#table) [<sup>[5]</sup>](#external-links)
 
 ## Using Github Flavoured Tasklists
-Github extends Markdown to have a list where you can check off items. <sup>[3]</sup>
+Github extends Markdown to have a list where you can check off items. [<sup>[3]</sup>](#references)
 - [x] Finish step 1
 - [ ] Finish step 2
 - [ ] Finish step 3
 
-## Using GFM emojis
+## Using GFM emojis <sup>[4]</sup>(#references)
+
 - GitHub Flavoured Markdown supports emoji shortcodes
 - Here are some examples using a table
 
 | Name | Shortcode | Emoji |
-| --- | --- |
-| Cloud | :clouds: | :cloud: |
-- 
+| --- | --- | --- |
+| Cloud | `:clouds:` | :cloud: |
+| Lightning Cloud | `:clouds_with_lightning:` | 🌩️ |
+
+## How to create a table <sup>[5]</sup>
+- Github extends the functionality of mardkwotn tables to provide more alignment and table cell formatting options 
+```markdown
+| Name | Shortcode | Emoji |
+| --- | --- | --- |
+| Cloud | `:clouds:` | :cloud: |
+| Lightning Cloud | `:clouds_with_lightning:` | 🌩️ |
+```
