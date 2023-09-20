@@ -23,7 +23,7 @@ print("Even numbers from 2 to 10:", even_numbers)
 - So, ```<img width="180px" src="https://github.com/PinnerSinner/markdowntest/assets/108472081/fa8da73a-1603-46de-b636-43ae87564dcd"/>```
 - <img width="180px" src="https://github.com/PinnerSinner/markdowntest/assets/108472081/fa8da73a-1603-46de-b636-43ae87564dcd"/>
 
-### Colours
+## Errors
 - When using codeblocks, specify the language used for proper formatting and colour. 
 - Good Cloud Engineers use codeblocks for both code and errors that appear in the console.
 - Here is an example of using a codeblock for an error that appears in bash
@@ -31,6 +31,14 @@ print("Even numbers from 2 to 10:", even_numbers)
 ```bash
 # Attempting to divide by zero, which raises a ZeroDivisionError
 result = 10 / 0
-ZeroDivisionError: division by zero
 ```
+> ZeroDivisionError: division by zero
 
+## Links
+If you're referencing something, we need to source it 
+- [GitHub Flavoured Markdown Spec](https://github.github.com/gfm/#introduction) <sup>[1]</sup>
+- [Getting started(Github Flavoured Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) <sup>[2]</sup>
+- [Using TaskLists(GitHub Docs)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[3]</sup>
+
+## Using Github Flavoured Tasklists
+Github extends Markdown to have a list where you can check off items. <sup>[3]</sup>
