@@ -39,6 +39,19 @@ If you're referencing something, we need to source it
 - [GitHub Flavoured Markdown Spec](https://github.github.com/gfm/#introduction) <sup>[1]</sup>
 - [Getting started(Github Flavoured Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) <sup>[2]</sup>
 - [Using TaskLists(GitHub Docs)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[3]</sup>
+- [Using emojis (cheat cheet)](https://github.com/ikatyang/emoji-cheat-sheet#emoji-cheat-sheet) <sup>[4]</sup>
 
 ## Using Github Flavoured Tasklists
 Github extends Markdown to have a list where you can check off items. <sup>[3]</sup>
+- [x] Finish step 1
+- [ ] Finish step 2
+- [ ] Finish step 3
+
+## Using GFM emojis
+- GitHub Flavoured Markdown supports emoji shortcodes
+- Here are some examples using a table
+
+| Name | Shortcode | Emoji |
+| --- | --- |
+| Cloud | :clouds: | :cloud: |
+- 
