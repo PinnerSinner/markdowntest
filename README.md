@@ -66,3 +66,4 @@ Github extends Markdown to have a list where you can check off items. [<sup>[3]<
 | Cloud | `:clouds:` | :cloud: |
 | Lightning Cloud | `:clouds_with_lightning:` | 🌩️ |
 ```
+[Secret Window Hidden Garden](secret-window.md)
